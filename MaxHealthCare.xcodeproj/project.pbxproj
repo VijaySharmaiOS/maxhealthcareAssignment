@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C126646048EF5F8C5ECDF7E /* Pods_MaxHealthCareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE2C57045DF011B71EE6C51 /* Pods_MaxHealthCareTests.framework */; };
+		8E0311978E954453059734EA /* Pods_MaxHealthCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6B25459C3716F21028C4A /* Pods_MaxHealthCare.framework */; };
+		95768D192AD65D0B0FAF9452 /* Pods_MaxHealthCare_MaxHealthCareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B806FCD4A6A2B942DBD70 /* Pods_MaxHealthCare_MaxHealthCareUITests.framework */; };
+		B1B317842B861C7800E0547F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317832B861C7800E0547F /* AppDelegate.swift */; };
+		B1B317862B861C7800E0547F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317852B861C7800E0547F /* SceneDelegate.swift */; };
+		B1B317882B861C7800E0547F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317872B861C7800E0547F /* ViewController.swift */; };
+		B1B3178B2B861C7800E0547F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B317892B861C7800E0547F /* Main.storyboard */; };
+		B1B3178D2B861C7A00E0547F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B3178C2B861C7A00E0547F /* Assets.xcassets */; };
+		B1B317902B861C7A00E0547F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B3178E2B861C7A00E0547F /* LaunchScreen.storyboard */; };
+		B1B3179B2B861C7A00E0547F /* MaxHealthCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B3179A2B861C7A00E0547F /* MaxHealthCareTests.swift */; };
+		B1B317A52B861C7A00E0547F /* MaxHealthCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317A42B861C7A00E0547F /* MaxHealthCareUITests.swift */; };
+		B1B317A72B861C7A00E0547F /* MaxHealthCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317A62B861C7A00E0547F /* MaxHealthCareUITestsLaunchTests.swift */; };
+		B1B317B42B862AB700E0547F /* TopicsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317B32B862AB700E0547F /* TopicsCollectionViewCell.swift */; };
+		B1B317B62B876C5300E0547F /* TopicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317B52B876C5300E0547F /* TopicViewModel.swift */; };
+		B1B317B82B876E1000E0547F /* TopicsRootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317B72B876E1000E0547F /* TopicsRootModel.swift */; };
+		B1B317BE2B87842500E0547F /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317BD2B87842500E0547F /* SectionViewController.swift */; };
+		B1B317C02B87846000E0547F /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317BF2B87846000E0547F /* SectionTableViewCell.swift */; };
+		B1B317C22B88B4F100E0547F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B317C12B88B4F100E0547F /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1B317972B861C7A00E0547F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B317782B861C7800E0547F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B3177F2B861C7800E0547F;
+			remoteInfo = MaxHealthCare;
+		};
+		B1B317A12B861C7A00E0547F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B317782B861C7800E0547F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B3177F2B861C7800E0547F;
+			remoteInfo = MaxHealthCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E16CF32C14E3BB6DB21B693 /* Pods-MaxHealthCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxHealthCareTests.release.xcconfig"; path = "Target Support Files/Pods-MaxHealthCareTests/Pods-MaxHealthCareTests.release.xcconfig"; sourceTree = "<group>"; };
+		17118036A6E2CE49BA68AE11 /* Pods-MaxHealthCare-MaxHealthCareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxHealthCare-MaxHealthCareUITests.release.xcconfig"; path = "Target Support Files/Pods-MaxHealthCare-MaxHealthCareUITests/Pods-MaxHealthCare-MaxHealthCareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		211B806FCD4A6A2B942DBD70 /* Pods_MaxHealthCare_MaxHealthCareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxHealthCare_MaxHealthCareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C6B25459C3716F21028C4A /* Pods_MaxHealthCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxHealthCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		573B81E7B759B5ECB62B21E8 /* Pods-MaxHealthCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxHealthCareTests.debug.xcconfig"; path = "Target Support Files/Pods-MaxHealthCareTests/Pods-MaxHealthCareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE2C57045DF011B71EE6C51 /* Pods_MaxHealthCareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxHealthCareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B317802B861C7800E0547F /* MaxHealthCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxHealthCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B317832B861C7800E0547F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1B317852B861C7800E0547F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1B317872B861C7800E0547F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1B3178A2B861C7800E0547F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1B3178C2B861C7A00E0547F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1B3178F2B861C7A00E0547F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1B317912B861C7A00E0547F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B317962B861C7A00E0547F /* MaxHealthCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxHealthCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B3179A2B861C7A00E0547F /* MaxHealthCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHealthCareTests.swift; sourceTree = "<group>"; };
+		B1B317A02B861C7A00E0547F /* MaxHealthCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxHealthCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B317A42B861C7A00E0547F /* MaxHealthCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHealthCareUITests.swift; sourceTree = "<group>"; };
+		B1B317A62B861C7A00E0547F /* MaxHealthCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHealthCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1B317B32B862AB700E0547F /* TopicsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsCollectionViewCell.swift; sourceTree = "<group>"; };
+		B1B317B52B876C5300E0547F /* TopicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewModel.swift; sourceTree = "<group>"; };
+		B1B317B72B876E1000E0547F /* TopicsRootModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsRootModel.swift; sourceTree = "<group>"; };
+		B1B317BD2B87842500E0547F /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		B1B317BF2B87846000E0547F /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
+		B1B317C12B88B4F100E0547F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DD334AD0C0ECF81A924851E5 /* Pods-MaxHealthCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxHealthCare.release.xcconfig"; path = "Target Support Files/Pods-MaxHealthCare/Pods-MaxHealthCare.release.xcconfig"; sourceTree = "<group>"; };
+		E982E15431645190E0470BD2 /* Pods-MaxHealthCare-MaxHealthCareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxHealthCare-MaxHealthCareUITests.debug.xcconfig"; path = "Target Support Files/Pods-MaxHealthCare-MaxHealthCareUITests/Pods-MaxHealthCare-MaxHealthCareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F0923E4F183A295A7C6CCC /* Pods-MaxHealthCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxHealthCare.debug.xcconfig"; path = "Target Support Files/Pods-MaxHealthCare/Pods-MaxHealthCare.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1B3177D2B861C7800E0547F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0311978E954453059734EA /* Pods_MaxHealthCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B317932B861C7A00E0547F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C126646048EF5F8C5ECDF7E /* Pods_MaxHealthCareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B3179D2B861C7A00E0547F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95768D192AD65D0B0FAF9452 /* Pods_MaxHealthCare_MaxHealthCareUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		241AA6510F185BA5FBF2A85C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2F0923E4F183A295A7C6CCC /* Pods-MaxHealthCare.debug.xcconfig */,
+				DD334AD0C0ECF81A924851E5 /* Pods-MaxHealthCare.release.xcconfig */,
+				E982E15431645190E0470BD2 /* Pods-MaxHealthCare-MaxHealthCareUITests.debug.xcconfig */,
+				17118036A6E2CE49BA68AE11 /* Pods-MaxHealthCare-MaxHealthCareUITests.release.xcconfig */,
+				573B81E7B759B5ECB62B21E8 /* Pods-MaxHealthCareTests.debug.xcconfig */,
+				0E16CF32C14E3BB6DB21B693 /* Pods-MaxHealthCareTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		924D8093CDE4A5B44696A8A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C6B25459C3716F21028C4A /* Pods_MaxHealthCare.framework */,
+				211B806FCD4A6A2B942DBD70 /* Pods_MaxHealthCare_MaxHealthCareUITests.framework */,
+				5DE2C57045DF011B71EE6C51 /* Pods_MaxHealthCareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1B317772B861C7800E0547F = {
+			isa = PBXGroup;
+			children = (
+				B1B317822B861C7800E0547F /* MaxHealthCare */,
+				B1B317992B861C7A00E0547F /* MaxHealthCareTests */,
+				B1B317A32B861C7A00E0547F /* MaxHealthCareUITests */,
+				B1B317812B861C7800E0547F /* Products */,
+				241AA6510F185BA5FBF2A85C /* Pods */,
+				924D8093CDE4A5B44696A8A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1B317812B861C7800E0547F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B317802B861C7800E0547F /* MaxHealthCare.app */,
+				B1B317962B861C7A00E0547F /* MaxHealthCareTests.xctest */,
+				B1B317A02B861C7A00E0547F /* MaxHealthCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B317822B861C7800E0547F /* MaxHealthCare */ = {
+			isa = PBXGroup;
+			children = (
+				B1B317832B861C7800E0547F /* AppDelegate.swift */,
+				B1B317852B861C7800E0547F /* SceneDelegate.swift */,
+				B1B317B72B876E1000E0547F /* TopicsRootModel.swift */,
+				B1B317B52B876C5300E0547F /* TopicViewModel.swift */,
+				B1B317872B861C7800E0547F /* ViewController.swift */,
+				B1B317B32B862AB700E0547F /* TopicsCollectionViewCell.swift */,
+				B1B317BD2B87842500E0547F /* SectionViewController.swift */,
+				B1B317BF2B87846000E0547F /* SectionTableViewCell.swift */,
+				B1B317C12B88B4F100E0547F /* DetailsViewController.swift */,
+				B1B317892B861C7800E0547F /* Main.storyboard */,
+				B1B3178C2B861C7A00E0547F /* Assets.xcassets */,
+				B1B3178E2B861C7A00E0547F /* LaunchScreen.storyboard */,
+				B1B317912B861C7A00E0547F /* Info.plist */,
+			);
+			path = MaxHealthCare;
+			sourceTree = "<group>";
+		};
+		B1B317992B861C7A00E0547F /* MaxHealthCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B3179A2B861C7A00E0547F /* MaxHealthCareTests.swift */,
+			);
+			path = MaxHealthCareTests;
+			sourceTree = "<group>";
+		};
+		B1B317A32B861C7A00E0547F /* MaxHealthCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B317A42B861C7A00E0547F /* MaxHealthCareUITests.swift */,
+				B1B317A62B861C7A00E0547F /* MaxHealthCareUITestsLaunchTests.swift */,
+			);
+			path = MaxHealthCareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B3177F2B861C7800E0547F /* MaxHealthCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B317AA2B861C7A00E0547F /* Build configuration list for PBXNativeTarget "MaxHealthCare" */;
+			buildPhases = (
+				CE2AAD92788CFA1465C76098 /* [CP] Check Pods Manifest.lock */,
+				B1B3177C2B861C7800E0547F /* Sources */,
+				B1B3177D2B861C7800E0547F /* Frameworks */,
+				B1B3177E2B861C7800E0547F /* Resources */,
+				7A6FC7007A092C9AC1218AC3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxHealthCare;
+			productName = MaxHealthCare;
+			productReference = B1B317802B861C7800E0547F /* MaxHealthCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1B317952B861C7A00E0547F /* MaxHealthCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B317AD2B861C7A00E0547F /* Build configuration list for PBXNativeTarget "MaxHealthCareTests" */;
+			buildPhases = (
+				3A15A0EE01D0EBFC0C04EB00 /* [CP] Check Pods Manifest.lock */,
+				B1B317922B861C7A00E0547F /* Sources */,
+				B1B317932B861C7A00E0547F /* Frameworks */,
+				B1B317942B861C7A00E0547F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B317982B861C7A00E0547F /* PBXTargetDependency */,
+			);
+			name = MaxHealthCareTests;
+			productName = MaxHealthCareTests;
+			productReference = B1B317962B861C7A00E0547F /* MaxHealthCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1B3179F2B861C7A00E0547F /* MaxHealthCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B317B02B861C7A00E0547F /* Build configuration list for PBXNativeTarget "MaxHealthCareUITests" */;
+			buildPhases = (
+				17E6460898652C872C48C5D1 /* [CP] Check Pods Manifest.lock */,
+				B1B3179C2B861C7A00E0547F /* Sources */,
+				B1B3179D2B861C7A00E0547F /* Frameworks */,
+				B1B3179E2B861C7A00E0547F /* Resources */,
+				6B25EF470D8728214057989F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B317A22B861C7A00E0547F /* PBXTargetDependency */,
+			);
+			name = MaxHealthCareUITests;
+			productName = MaxHealthCareUITests;
+			productReference = B1B317A02B861C7A00E0547F /* MaxHealthCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1B317782B861C7800E0547F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B1B3177F2B861C7800E0547F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B1B317952B861C7A00E0547F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B1B3177F2B861C7800E0547F;
+					};
+					B1B3179F2B861C7A00E0547F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B1B3177F2B861C7800E0547F;
+					};
+				};
+			};
+			buildConfigurationList = B1B3177B2B861C7800E0547F /* Build configuration list for PBXProject "MaxHealthCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1B317772B861C7800E0547F;
+			productRefGroup = B1B317812B861C7800E0547F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B3177F2B861C7800E0547F /* MaxHealthCare */,
+				B1B317952B861C7A00E0547F /* MaxHealthCareTests */,
+				B1B3179F2B861C7A00E0547F /* MaxHealthCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1B3177E2B861C7800E0547F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B317902B861C7A00E0547F /* LaunchScreen.storyboard in Resources */,
+				B1B3178D2B861C7A00E0547F /* Assets.xcassets in Resources */,
+				B1B3178B2B861C7800E0547F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B317942B861C7A00E0547F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B3179E2B861C7A00E0547F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17E6460898652C872C48C5D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaxHealthCare-MaxHealthCareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A15A0EE01D0EBFC0C04EB00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaxHealthCareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B25EF470D8728214057989F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaxHealthCare-MaxHealthCareUITests/Pods-MaxHealthCare-MaxHealthCareUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaxHealthCare-MaxHealthCareUITests/Pods-MaxHealthCare-MaxHealthCareUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaxHealthCare-MaxHealthCareUITests/Pods-MaxHealthCare-MaxHealthCareUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6FC7007A092C9AC1218AC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaxHealthCare/Pods-MaxHealthCare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaxHealthCare/Pods-MaxHealthCare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaxHealthCare/Pods-MaxHealthCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2AAD92788CFA1465C76098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaxHealthCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1B3177C2B861C7800E0547F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B317882B861C7800E0547F /* ViewController.swift in Sources */,
+				B1B317842B861C7800E0547F /* AppDelegate.swift in Sources */,
+				B1B317BE2B87842500E0547F /* SectionViewController.swift in Sources */,
+				B1B317B42B862AB700E0547F /* TopicsCollectionViewCell.swift in Sources */,
+				B1B317B82B876E1000E0547F /* TopicsRootModel.swift in Sources */,
+				B1B317C02B87846000E0547F /* SectionTableViewCell.swift in Sources */,
+				B1B317862B861C7800E0547F /* SceneDelegate.swift in Sources */,
+				B1B317B62B876C5300E0547F /* TopicViewModel.swift in Sources */,
+				B1B317C22B88B4F100E0547F /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B317922B861C7A00E0547F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B3179B2B861C7A00E0547F /* MaxHealthCareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B3179C2B861C7A00E0547F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B317A72B861C7A00E0547F /* MaxHealthCareUITestsLaunchTests.swift in Sources */,
+				B1B317A52B861C7A00E0547F /* MaxHealthCareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1B317982B861C7A00E0547F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B3177F2B861C7800E0547F /* MaxHealthCare */;
+			targetProxy = B1B317972B861C7A00E0547F /* PBXContainerItemProxy */;
+		};
+		B1B317A22B861C7A00E0547F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B3177F2B861C7800E0547F /* MaxHealthCare */;
+			targetProxy = B1B317A12B861C7A00E0547F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1B317892B861C7800E0547F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B3178A2B861C7800E0547F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1B3178E2B861C7A00E0547F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B3178F2B861C7A00E0547F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1B317A82B861C7A00E0547F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1B317A92B861C7A00E0547F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1B317AB2B861C7A00E0547F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F0923E4F183A295A7C6CCC /* Pods-MaxHealthCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q44THS6KD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaxHealthCare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuicom.MaxHealthCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1B317AC2B861C7A00E0547F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD334AD0C0ECF81A924851E5 /* Pods-MaxHealthCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q44THS6KD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaxHealthCare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuicom.MaxHealthCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1B317AE2B861C7A00E0547F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573B81E7B759B5ECB62B21E8 /* Pods-MaxHealthCareTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q44THS6KD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuicom.MaxHealthCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxHealthCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaxHealthCare";
+			};
+			name = Debug;
+		};
+		B1B317AF2B861C7A00E0547F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E16CF32C14E3BB6DB21B693 /* Pods-MaxHealthCareTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q44THS6KD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuicom.MaxHealthCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaxHealthCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MaxHealthCare";
+			};
+			name = Release;
+		};
+		B1B317B12B861C7A00E0547F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E982E15431645190E0470BD2 /* Pods-MaxHealthCare-MaxHealthCareUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q44THS6KD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuicom.MaxHealthCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaxHealthCare;
+			};
+			name = Debug;
+		};
+		B1B317B22B861C7A00E0547F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17118036A6E2CE49BA68AE11 /* Pods-MaxHealthCare-MaxHealthCareUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q44THS6KD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuicom.MaxHealthCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaxHealthCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1B3177B2B861C7800E0547F /* Build configuration list for PBXProject "MaxHealthCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B317A82B861C7A00E0547F /* Debug */,
+				B1B317A92B861C7A00E0547F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B317AA2B861C7A00E0547F /* Build configuration list for PBXNativeTarget "MaxHealthCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B317AB2B861C7A00E0547F /* Debug */,
+				B1B317AC2B861C7A00E0547F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B317AD2B861C7A00E0547F /* Build configuration list for PBXNativeTarget "MaxHealthCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B317AE2B861C7A00E0547F /* Debug */,
+				B1B317AF2B861C7A00E0547F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B317B02B861C7A00E0547F /* Build configuration list for PBXNativeTarget "MaxHealthCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B317B12B861C7A00E0547F /* Debug */,
+				B1B317B22B861C7A00E0547F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1B317782B861C7800E0547F /* Project object */;
+}
